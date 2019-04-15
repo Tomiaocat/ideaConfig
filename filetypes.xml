@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="klib" type="ARCHIVE" />
+      <mapping pattern="_test3" type="Python" />
+      <mapping ext="hprof" type="yarn.lock" />
+    </extensionMap>
+  </component>
+</application>
