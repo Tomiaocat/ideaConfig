@@ -1,0 +1,14 @@
+<templateSet group="doubleGroup">
+  <template name="double" value="/**&#10; * @Method $method$&#10; * @Author $author$&#10; * @Version  1.0&#10; * @Description&#10; $param$&#10; * @Return $return$&#10; * @Exception $exception$&#10; * @Date $date$ $time$&#10; */" description="add some" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="author" expression="double" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="groovyScript(&quot;def result='';def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i=0;i&lt;params.size();i++){if(params[i]=='') return result;if(i==0) result += '\\n'; result+='  * @param ' + params[i]+((i&lt;params.size()-1)?'\\n' : '')}; return result&quot;, methodParameters())" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="expressionType(Expression)" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
