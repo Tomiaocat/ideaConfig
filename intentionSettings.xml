@@ -1,0 +1,7 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Language injection/Inject language or reference" />
+    <ignoreAction name="CSS/Expand CSS shorthand property" />
+    <ignoreAction name="CSS/Extract ruleset" />
+  </component>
+</application>
