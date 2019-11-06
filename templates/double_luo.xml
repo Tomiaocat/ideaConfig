@@ -1,5 +1,5 @@
 <templateSet group="double_luo">
-  <template name="double" value="/**&#10;  *&#10;  * 功能描述:&#10;  * $param$&#10;  * @return: $return$&#10;  * @author: $user$&#10;  * @date: $date$ $time$&#10;  */&#10;" description="生成方法名" toReformat="false" toShortenFQNames="true">
+  <template name="double" value="/**&#10;  *&#10;  * 功能描述:&#10;  * $param$&#10;  * @return: $return$&#10;  * @author: $user$&#10;  * @date: $date$ $time$&#10;  */&#10;" description="生成方法名" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="param" expression="groovyScript(&quot;def result='';def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i=0;i&lt;params.size();i++){if(params[i]=='') return result;if(i==0) result += '\\n'; result+='  * @param ' + params[i]+((i&lt;params.size()-1)?'\\n' : '')}; return result&quot;, methodParameters())" defaultValue="" alwaysStopAt="true" />
     <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
     <variable name="user" expression="user()" defaultValue="" alwaysStopAt="true" />
