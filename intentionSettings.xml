@@ -3,5 +3,7 @@
     <ignoreAction name="Language injection/Inject language or reference" />
     <ignoreAction name="CSS/Expand CSS shorthand property" />
     <ignoreAction name="CSS/Extract ruleset" />
+    <ignoreAction name="XML/Insert namespace prefix" />
+    <ignoreAction name="XML/Rearrange tag attributes" />
   </component>
 </application>
