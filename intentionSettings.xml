@@ -6,5 +6,7 @@
     <ignoreAction name="XML/Insert namespace prefix" />
     <ignoreAction name="XML/Rearrange tag attributes" />
     <ignoreAction name="Java/Declaration/Split declaration" />
+    <ignoreAction name="Java/Refactorings/Introduce local variable" />
+    <ignoreAction name="Java/Control Flow/Create switch statement" />
   </component>
 </application>
