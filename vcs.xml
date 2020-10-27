@@ -114,6 +114,10 @@
           <option name="url" value="https://gitee.com/stringify/ChineseChessOnline.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/hs-web/hsweb-framework/tree/4.0.x" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\gitCode" />
