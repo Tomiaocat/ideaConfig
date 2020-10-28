@@ -8,5 +8,6 @@
     <ignoreAction name="Java/Declaration/Split declaration" />
     <ignoreAction name="Java/Refactorings/Introduce local variable" />
     <ignoreAction name="Java/Control Flow/Create switch statement" />
+    <ignoreAction name="Java/Other/Put arguments on separate lines" />
   </component>
 </application>
