@@ -126,6 +126,10 @@
           <option name="url" value="https://gitee.com/sinbo/kooteam.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Lihuanghe/SMSGate.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\gitCode" />
