@@ -138,6 +138,10 @@
           <option name="url" value="https://gitee.com/y_project/RuoYi-Cloud.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/jyl/ssm.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\newGitCode" />
